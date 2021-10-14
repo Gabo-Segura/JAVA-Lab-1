@@ -61,7 +61,7 @@ public class Mode1{
     public void set_First_Name(String first_name){
         int stringLength = first_name.length();
         if (stringLength > 3 && stringLength < 20) {
-            System.out.println(first_name);
+            System.out.println(this.first_name);
         }
         else{
             System.out.println("Please enter your first name with 3 to 20 characters");
@@ -75,7 +75,7 @@ public class Mode1{
     public void set_Last_Name(String last_name){
         int stringLength = last_name.length();
         if (stringLength > 3 && stringLength < 20) {
-            System.out.println(last_name);
+            System.out.println(this.last_name);
         }
         else{
             System.out.println("Please enter your last name with 3 to 20 characters");
@@ -88,7 +88,7 @@ public class Mode1{
 
     public void set_Height(int height){
         if (height > 24 && height < 84) {
-            System.out.println(height);
+            System.out.println(this.height);
         }
         else {
             System.out.println("Your height must be between 24 inches to 84 inches");
@@ -101,7 +101,7 @@ public class Mode1{
 
     public void set_Weight(double weight){
         if (weight > 80 && weight < 280) {
-            System.out.println(weight);
+            System.out.println(this.weight);
         }
         else {
             System.out.println("Your weight must be between 80 pounds to 280 pounds");
