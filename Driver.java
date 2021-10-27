@@ -1,4 +1,4 @@
-package Mode1;
+package labs.lab1;
 
 public class Driver {
 

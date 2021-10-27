@@ -1,4 +1,4 @@
-package Mode1;
+package labs.lab1;
 
 public class Mode1{
 
@@ -48,10 +48,10 @@ public class Mode1{
      */
 
     public Mode1(String first_name, String last_name, int height, double weight){
-        this.first_name = first_name;
-        this.last_name = last_name;
-        this.height = height;
-        this.weight = weight;
+        set_First_Name(this.first_name);
+        set_Last_Name(this.last_name);
+        set_Height(this.height);
+        set_Weight(this.weight);
     }
 
     public String get_First_name() {
@@ -199,15 +199,7 @@ public class Mode1{
 
     }
 
-    // Methods guide
-    public static final int INCHES_PER_FOOT = 12;
-    public static final double POUNDS_PER_KG = 2.2046;
-    public static final int BASE_RATE_DOLLARS_PER_HOUR = 60;
-    public static final int TALL_INCHES = 67;
-    public static final double THIN_POUNDS = 140.0;
-    public static final int TALL_THIN_BONUS_DOLLARS_PER_HOUR = 5;
-    public static final int TRAVEL_BONUS_DOLLARS_PER_HOUR = 4;
-    public static final int SMOKER_DEDUCTION_DOLLARS_PER_HOUR = 10;
+
 
     public int calculatePayDollarsPerHour() {
         return 0;
